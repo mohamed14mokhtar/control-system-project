@@ -1,0 +1,53 @@
+I'm thrilled to share my SMART HOME project in Microcontroller Interfacing Using PIC18f4620.
+
+
+- Hardware component:-
+
+*PIC18f4620
+*Lcd
+*7_Segmant
+*Motors
+*DS1307
+*tc47
+*Decoder7447
+*Full bridge driver
+*transistor 
+*relay
+*push buttons
+*LED
+*IR sensor 
+
+
+- Project description:-
+
+~LCD display date and temperature PIC18f4620 one acte as a master,ds1307 and tc74 acte as slave,Application for I2C and LCD.
+~7_segmant display time application for Decoder7447 and 7_Segmant.
+~home entrance : 
+It uses infrared rays to ensure that anyone enters the house, and if anyone enters the lamp, it will light up for a period of time(2.5s).
+Application for IR sensor, timer0 ,internal interrupt, transistor and LDS 
+
+~ROOM 1:-
+The speed of the motors is controlled according to the temperature inside the room, and the lamps are turned on by pressing a button, 
+or the lamp can be made to glow all the time or turn off all the time.
+Application for ADC, DC motor, Full bridge driver, I2C, Tc74, LED and buttons 
+
+~ROOM 2:-
+The user is asked to enter the password. If it is correct, the lamp is lit and the user can control the speed of the motor using a variable resistance. 
+After the user leaves the room, he gives an exit command and then everything in the room will be closed. If the password was wrong from the beginning,
+it will not Anything in the room will be activated and the user will be told the password is incorrectز
+Application for ADC, I2C, USART, Motor ,LED .
+
+
+
+Check out Project code on GitHub:-
+https://github.com/mohamed14mokhtar/smart-home-project
+
+
+Special Thanks:
+Gratitude to Eng. Ahmed Abd El-Ghafar El-Kenany for his impactful guidance and teaching skills.
+
+
+
+#EmbeddedC #SmartHome #EmbeddedSystems #Innovation #CodingJourney #SmartTech #Engineering #PIC18F4620
+#Electronics 
+
